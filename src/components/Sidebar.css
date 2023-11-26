@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+aside {
+    background-color: pink;
+    width: 300px;
+    margin: 0;
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
