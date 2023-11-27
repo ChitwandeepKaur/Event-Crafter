@@ -10,9 +10,9 @@ li {
 
 aside {
     background-color: pink;
-    width: 300px;
     margin: 0;
     font-family: Roboto;
+    height: 90vh;
 }
 
 h1 {

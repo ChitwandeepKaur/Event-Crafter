@@ -7,9 +7,11 @@ function App() {
   const [appState, changeAppState] = useState('ListingPage')
 
   return (
-    <div>
-      <Sidebar appState={appState} changeAppState = {changeAppState}/>
-      <ComponentToShow appState={appState}/>
+    <div className='container-fluid'>
+      <div className='row'>
+      <Sidebar appState={appState} changeAppState = {changeAppState} className='col-lg-6'/>
+      <ComponentToShow appState={appState} className='col-lg-6'/>
+      </div>
     </div>
   );
 }
