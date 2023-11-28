@@ -1,8 +1,10 @@
-import ListingPage from "./ListingPage"
-import CreateEvent from "./CreateEvent"
 
 const ComponentToShow = (props) => {
-    return props.appState === 'ListingPage'? <ListingPage/>:<CreateEvent/>
+    return( 
+        <main>
+            {}
+        </main>
+    )
 }
 
 export default ComponentToShow

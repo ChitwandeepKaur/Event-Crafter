@@ -1,0 +1,13 @@
+.container {
+    max-width  :  1350px !important; 
+    margin-top : 2%;
+}
+
+.mainCol {
+    background-color : white;
+}
+
+.mainHeading {
+    font-family : 'Playpen Sans', cursive;
+    color       :#51483e !important
+}
