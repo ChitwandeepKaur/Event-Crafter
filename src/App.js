@@ -10,6 +10,7 @@ import CreateEvent from "./components/CreateEvent.js"
 function App () {
 
   const [ appState, changeAppState ] = useState('ListingPage')
+  const [ eventsArray, changeEventsArray] = useState([])
 
   return (
     <div>
@@ -22,7 +23,9 @@ function App () {
             <Sidebar appState= {appState} changeAppState = {changeAppState}/>
           </Col>
           <Col lg={9} className='mainCol'>
-            { appState === 'ListingPage' ? <ListingPage/> : <CreateEvent/> }
+            { appState === 'ListingPage' ? 
+                <ListingPage eventsArray = {eventsArray} changeEventsArray = {changeEventsArray}/> : 
+                <CreateEvent eventsArray = {eventsArray} changeEventsArray = {changeEventsArray}/> }
           </Col>
         </Row>
       </Container>
